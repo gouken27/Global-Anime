@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#static-rect {
+    width: 200px;
+    height: 100px;
+    background-color: #ff5733;
+    position: fixed;
+    z-index: 2;
+}
+
+#scrollable-rect {
+    width: 300px;
+    height: 150px;
+    background-color: #33c4ff;
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.1s ease;
+}
